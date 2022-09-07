@@ -1,6 +1,6 @@
 import Swap from './Swap'
 
-function Index() {
+function SwapIndex() {
   return (
     <div className='flex items-center justify-center my-auto'>
         <Swap />
@@ -8,4 +8,4 @@ function Index() {
   )
 }
 
-export default Index
+export default SwapIndex

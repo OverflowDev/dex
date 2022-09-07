@@ -1,5 +1,8 @@
+import { Link, NavLink } from "react-router-dom"
 
 function Navbar() {
+    const active = 'font-bold'
+    const notActive = 'text-gray-600 hover:text-gray-900'
 
   return (
     <div className='conatainer overflow-hidden'>
@@ -7,9 +10,9 @@ function Navbar() {
             <div className="flex items-center font-medium justify-between">  
                 {/*  Menu  */}
                 <div className='p-3 md:w-auto w-full flex items-center justify-between'>
-                    <div className='font-inter font-bold text-4xl'>
+                    <Link to='/' className='font-inter font-bold text-4xl'>
                         D3X
-                    </div>
+                    </Link>
                     {/* Cart  */}
                     <div className="md:hidden">
                         <button className='bg-blue-200 py-2 px-4 rounded text-center'>
@@ -19,17 +22,45 @@ function Navbar() {
                 </div>
 
                 <ul className='md:flex hidden items-center gap-8 font-normal'>
-                    <li className='font-bold cursor-pointer'>
-                        Swap
+                    <li className='cursor-pointer'>
+                        <NavLink 
+                            to='/swap' 
+                            className={
+                                ({isActive}) => isActive ? active : notActive 
+                            }
+                        >
+                            Swap
+                        </NavLink>
                     </li>
-                    <li className='text-gray-600 cursor-pointer hover:text-gray-900'>
-                        Pool
+                    <li className='cursor-pointer '>
+                        <NavLink 
+                            to='/pool' 
+                            className={
+                                ({isActive}) => isActive ? active : notActive 
+                            }
+                        >
+                            Pool
+                        </NavLink>
                     </li>
-                    <li className='text-gray-600 cursor-pointer hover:text-gray-900'>
-                        Farm
+                    <li className='cursor-pointer '>
+                        <NavLink 
+                            to='/farm' 
+                            className={
+                                ({isActive}) => isActive ? active : notActive 
+                            }
+                        >
+                            Farm
+                        </NavLink>
                     </li>
-                    <li className='text-gray-600 cursor-pointer hover:text-gray-900'>
-                        Bridge
+                    <li className='cursor-pointer '>
+                        <NavLink 
+                            to='/bridge' 
+                            className={
+                                ({isActive}) => isActive ? active : notActive 
+                            }
+                        >
+                            Bridge
+                        </NavLink>
                     </li>
                 </ul>
                 

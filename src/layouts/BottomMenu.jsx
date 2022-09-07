@@ -2,7 +2,7 @@ import React from 'react'
 
 function BottomMenu() {
   return (
-    <footer className='mt-auto md:hidden'>
+    <footer className='mt-auto md:hidden sticky bottom-0 bg-white'>
         <div className='flex justify-between items-center border-t py-6 px-6  gap-3'>
 
           <div className='flex flex-col text-md'>

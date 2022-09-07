@@ -3,7 +3,7 @@ import Slippage from './Slippage'
 
 function Swap() {
   return (
-    <div>
+    <div className=''>
         <Slippage />
         
         <div className="flex flex-col">
