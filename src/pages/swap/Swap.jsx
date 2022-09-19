@@ -59,7 +59,7 @@ function Swap() {
 
                     <div className="flex items-center gap-2">
                         <ion-icon name="cash-outline" ></ion-icon>
-                        <h2 className='font-semibold text-2xl'>ETH</h2>
+                        <h2 className='font-semibold text-2xl'>USDC</h2>
                     </div>
                     <div className="flex flex-col">
                         <h2 className='font-light text-sm'>Balance - 100</h2>

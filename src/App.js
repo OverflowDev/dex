@@ -23,7 +23,7 @@ function App() {
           <Route path='/farm' element={ <FarmIndex /> } />
           <Route path='/bridge' element={ <BridgeIndex /> } />
         </Routes>
-
+        
         <BottomMenu />
       </Router>
 

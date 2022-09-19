@@ -4,7 +4,7 @@ function Farm() {
   return (
     <div className=''>
 
-      <div className='grid md:grid-cols-3 grid-cols-1 gap-8 mt-12 p-4'>
+      <div className='grid md:grid-cols-3 grid-cols-1 gap-8 gap-y-12 mt-12 p-4'>
         {/* Farm  */}
         <div className="relative max-w-md w-80 h-80 md:w-80 md:h-80 py-4 px-6 rounded-lg shadow-md">
             
@@ -55,7 +55,7 @@ function Farm() {
                 <h2 className="font-light text-sm">Rewards</h2>
                 <div className="flex items-center justify-between">
                   <h2 className="font-bold tracking-wider">$0.00</h2>
-                  <button className="px-3 py-1 bg-blue-50 border border-blue-200 tracking-wider rounded-lg">Claim</button>
+                  <button className="px-3 py-1 bg-blue-50 hover:bg-blue-200 border border-blue-200 tracking-wider rounded-lg">Claim</button>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ function Farm() {
                 <h2 className="font-light text-sm">Rewards</h2>
                 <div className="flex items-center justify-between">
                   <h2 className="font-bold tracking-wider">$0.00</h2>
-                  <button className="px-3 py-1 bg-blue-50 border border-blue-200 tracking-wider rounded-lg">Claim</button>
+                  <button className="px-3 py-1 bg-blue-50 hover:bg-blue-200 border border-blue-200 tracking-wider rounded-lg">Claim</button>
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ function Farm() {
                 <h2 className="font-light text-sm">Rewards</h2>
                 <div className="flex items-center justify-between">
                   <h2 className="font-bold tracking-wider">$0.00</h2>
-                  <button className="px-3 py-1 bg-blue-50 border border-blue-200 tracking-wider rounded-lg">Claim</button>
+                  <button className="px-3 py-1 bg-blue-50 hover:bg-blue-200 border border-blue-200 tracking-wider rounded-lg">Claim</button>
                 </div>
               </div>
             </div>
